@@ -1,0 +1,48 @@
+button{
+	background-color:#badc58;
+	font-size: 16px;
+	border : 0;
+	border-radius: 5px;
+}
+
+h2{
+	text-align: center;
+}
+
+button:hover{
+	background-color:  #A5C24E;
+	cursor: pointer;
+}
+
+
+body{
+	background-color:  #76c2d6;
+	font-family: arial;
+	display: flex;
+
+}
+
+form{
+	text-align: center;
+	border-radius: 5px;
+	background-color: white;
+	width:300px;
+	height:300px;
+	margin: auto;
+}
+
+input{
+	width: 250px;
+	border:none;
+	border-bottom: 3px solid #ddd;
+	margin: 10px;
+	padding: 10px;
+}
+
+input:hover,input:focus{
+	border-color: #badc58;
+	background-color: #badc58;
+}
+
+
+
